@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    background-color: #d3cbcb;
+}
+
+
+.container {
+    margin: 10%;
+}
+
+.block {
+    margin: 0 auto;
+    border: #c6c2c2 2px solid;
+    border-radius: 10px;
+    background-color: lavenderblush;
+    width: 700px;
+    height: 400px;
+    position:relative;
+}
+
+.foto {
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+    position: absolute;
+    left: 260px;
+    bottom: 79%;
+}
+.name {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.specialty {
+    word-wrap:break-word;
+   padding: 10px;
+}
+
+.description {
+    text-align: center;
+}
