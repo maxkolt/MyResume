@@ -1,24 +1,31 @@
 <!DOCTYPE html>
+<!--TODO: заменить на <html lang="ru"> (без xmlns=...) и язык же русский
+        Можно слева кликом по правой мышки: NEW -> HTML file и создасться новый правильный HTML>-->
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
+<!-- TODO: не хватает полезных мета-тегов -->
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <title>Резюме программиста</title>
 </head>
-<section class="container">
-<div class="block">
-    <img class="foto" src="images/photo_2020-12-14_20-17-55.jpg"/>
-    <h3 class="name">Maksim Koltovich </br>Frontend</h3>
-    <p class="specialty">Eohoijpi [pjpojoeofjeriuer wkgpo eirgoiroekl fdkvreigor fvsdkporgrjdmkqpeueflfkejjdjwrijwjfkjvrwrrjro.
-    ejfnvjefnvkjefnvjfe nvfek  c edkfermv keokvprmvmf rp evorvrjvirjirwnejwnrejnrnvjrnv,
-    ovkeporkv oerjvirjv iehuwqdcb wjeke-okv-kpleplpl!</p>
-    <hr>
-    <p class="description">Привет привет привет привет привет привет</p>
-    <hr>
 
-</div>
+<!-- TODO: секция не отцентрирована по вертикали и не адаптивна-->
+<section class="container">
+    <div class="block center-text">
+        <img class="photo" src="images/avatar.jpg" alt="avatar"/>
+        <h3 class="paddingTop">Максим Колтович</h3>
+        <h5>Фронтенд разработчик</h5>
+        <p class="specialty">
+            Я умею писать плохой CSS 😄 Учусь писато получше.
+            Скоро планирую нацчиться писать ниндзя джаваскрипт.
+        </p>
+        <hr>
+        <p>React, Vue, Scss, Git, WebStorm</p>
+        <hr>
+    </div>
 </section>
+<!-- TODO: контент всегда в теге  <body> а не перед !-->
 <body>
-<script src ="js/script.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
