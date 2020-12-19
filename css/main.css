@@ -8,12 +8,13 @@ body {
 }
 /* TODO: избавиться от пикселей (пример: { width: 24%; margin-right: 1%; }) + rem + em в помощь*/
 .block {
+    display: block;
     margin: 0 auto;
     border: #c6c2c2 2px solid;
-    border-radius: 10px;
+    border-radius: 2%;
     background-color: lavenderblush;
-    width: 700px;
-    height: 400px;
+    width: 57%;
+    height: 25em;
     position: relative;
 }
 
